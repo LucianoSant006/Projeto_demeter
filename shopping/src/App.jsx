@@ -1,5 +1,7 @@
 import React from "react";
 import Header from "./componentes/Header/Header";
+import SearchBar from "./componentes/SearchBar/SearchBar";
+import CartButton from "./componentes/CartButton/CartButton";
 
 
 function App() {
@@ -7,6 +9,8 @@ function App() {
     <div>
 
       <Header />
+      <SearchBar/>
+      <CartButton/>
       
     </div>
   );

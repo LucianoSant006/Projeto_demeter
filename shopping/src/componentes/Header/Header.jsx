@@ -1,7 +1,8 @@
 import React from 'react';
 import SearchBar from '../SearchBar/SearchBar';
-import './Feader.css';
-
+import '../Feader.css';
+import CartButton from '../CartButton/CartButton';
+import '../CartButton.css';
 
 function Header() {
 return (/*<header className='header' style={{background:'red'}}>
@@ -22,6 +23,7 @@ return (/*<header className='header' style={{background:'red'}}>
               <a href="#"></a>
               <img src="img/logosagrada-removebg-preview.png" alt="" class="logo-demeter" />
            </div>
+           <SearchBar/>
            <div className="open-nav-menu">
               <span></span>
            </div>
@@ -64,6 +66,7 @@ return (/*<header className='header' style={{background:'red'}}>
                    <a href="#">Contact</a>
                 </li>
              </ul>
+             <CartButton/>
          
            </nav>
            </div>
