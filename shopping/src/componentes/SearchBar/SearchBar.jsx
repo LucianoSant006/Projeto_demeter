@@ -2,7 +2,7 @@ import React, { useState, useContext } from 'react';
 import { BsSearch } from 'react-icons/bs';
 
 import './Search.css';
-import fetchProducts from '../../api/fetchProducts';
+/*import fetchProducts from '../../Api/fetchProducts';*/
 import AppContext from '../../context/AppContext';
 
 function SearchBar() {
@@ -14,12 +14,13 @@ function SearchBar() {
     event.preventDefault();
     setLoading(true);
 
-    const products = await fetchProducts(searchValue);
-
+   /* const products = await fetchProducts(searchValue);
     setProducts(products);
     setLoading(false);
     setSearchValue('');
+     */
   };
+ 
 
   return (
     <form className="search-bar" onSubmit={handleSearch}>
