@@ -3,6 +3,7 @@
   display: flex;
   gap: 50px;
   transition: 0.5s;
+  justify-content: center;
   
   
 }
@@ -10,8 +11,8 @@
     width: 280px;
     height: 400px;
     border-radius: 15px  ;
-    transform: translateX(175px);
-
+   justify-items: center;
+justify-content: center;
     box-shadow: 0 20px 34px rgba(0, 0, 0, 0.3);
     background-image: url('caminho_da_imagem.jpg');
     background-size: cover;
@@ -23,7 +24,8 @@
 
  }
  .favorito{
-    transform: translate(80% ,123px);
+    transform: translate(80% ,109px);
+    
  }
  .img{
 
@@ -38,6 +40,9 @@
 
 
 
+ }
+ .container2{
+  justify-content: center;
  }
 
  .container_3 {
@@ -64,6 +69,9 @@
     border-radius: 50%;
     background-color: red;
     transition: background-color 0.3s;
+  }
+  .button{
+
   }
   
   
