@@ -7,11 +7,84 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Slider Produtos - @programador.cs</title>
     <link rel="stylesheet" href="CSS_produtos/produto.css">
+   
+    
 </head>
 
 <body>
-    <h2><b>Produtos</b>EM DESTAQUE</h2>
-    <div class="slider">
+    <header class="header">
+        <div class="container">
+           <div class="header-main">
+           
+              <div class="logo">
+                 <a href="#"></a>
+                 <img src="img/logosagrada-removebg-preview.png" alt="" class="logo-demeter" >
+              </div>
+              <div class="open-nav-menu">
+                 <span></span>
+              </div>
+              <div class="menu-overlay">
+              </div>
+              <!-- navigation menu start -->
+              <nav class="nav-menu">
+                <div class="close-nav-menu ">
+                   <img src="img/close.svg" alt="close">
+                </div>
+                <ul class="menu">
+                   <li class="menu-item menu-item-has-children">
+                      <a href="#" data-toggle="sub-menu">Home <i class="plus"></i></a>
+                      <ul class="sub-menu">
+                          <li class="menu-item"><a href="#">Home 1</a></li>
+                          <li class="menu-item"><a href="#">Home 2</a></li>
+                          <li class="menu-item"><a href="#">Home 3</a></li>
+                          <li class="menu-item"><a href="#">Home 4</a></li>
+                      </ul>
+                   </li>
+                   <li class="menu-item">
+                      <a href="#">About</a>
+                   </li>
+                   <li class="menu-item">
+                      <a href="#">Services</a>
+                   </li>
+                   <li class="menu-item menu-item-has-children">
+                      <a href="#" data-toggle="sub-menu">Pages <i class="plus"></i></a>
+                      <ul class="sub-menu">
+                          <li class="menu-item"><a href="#">page 1</a></li>
+                          <li class="menu-item"><a href="#">page 2</a></li>
+                          <li class="menu-item"><a href="#">page 3</a></li>
+                          <li class="menu-item"><a href="#">page 4</a></li>
+                      </ul>
+                   </li>
+                   <li class="menu-item">
+                      <a href="#">News</a>
+                   </li>
+                   <li class="menu-item">
+                      <a href="#">Contact</a>
+                   </li>
+                </ul>
+              
+              </nav>
+              <script src="js/script.js"></script>
+    
+               </div>
+    
+              </div>
+              <div class="screach">
+               <input type="text" class="screach-text" placeholder="Pesquisar">
+               <a href="#" class="search-btn">
+                  <i class="fas fa-serch"></i>
+               <img src="img/loupe.png" alt="lupa" class="lupa" >
+           </a>
+           </div>
+              <!-- navigation menu end -->
+           </div>
+        </div>
+     </header>
+
+     <h1 class="produtos"> Produtos </h1>
+    
+  
+     <div class="slider">
         <div class="card">
             <div class="like"></div>
             <img class="product"
@@ -71,14 +144,42 @@
             </div>
             <a class="button">Adicionar ao carrinho </a>
         </div>
+        
 
     </div>
+    <div class="slider2">
+        <div class="card">
+            <div class="like"></div>
+            <img class="product"
+                src="https://raw.githubusercontent.com/Cassianosch/programador.cs-reels/develop/slider-produtos-simples/assets/images/3-1.webp" />
+            <h4 class="title">Apple iPad</h4>
+            <div class="rating"></div>
+            <div class="price">
+                <h5>R$ 1.000,00</h5>
+                <h5>R$ 1.000,00</h5>
+            </div>
+            <a class=" button">Adicionar ao carrinho </a>
+        </div>
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+		
+		<div class="dotsbox" style="text-align:center">
+			<span class="dot" onclick="currentSlide(1)"></span>
+			<span class="dot" onclick="currentSlide(2)"></span>
+			<span class="dot" onclick="currentSlide(3)"></span>
+			<span class="dot" onclick="currentSlide(4)"></span>
+			<span class="dot" onclick="currentSlide(5)"></span>
+		</div>
+
 </body>
 
 
 <script type="text/javascript" src="CSS_produtos/js_slide/script.js"></script>
 
 
+<script src="css/js.js"></script>
+<script src="CSS_produtos/js_slide/"></script>
 </body>
 
 </html>
